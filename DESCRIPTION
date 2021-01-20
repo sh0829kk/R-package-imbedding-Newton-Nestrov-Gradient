@@ -1,0 +1,15 @@
+Package: LogisticRegression
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Lin Keke
+Maintainer: sh0829kk<sh0829kk@XJTU.EDU>
+Description: Performs discrete, real, and gentle logistic regression model under 
+             both initial model and model with L2 norm regularization. The package provides solving 
+             algorithm includes three types of algorithms, namely gradient descent method, 
+             accelerated gradient descent method and Newton method with functions can simply output
+             confusion matrix, evaluation indicators and visualize descent process.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
