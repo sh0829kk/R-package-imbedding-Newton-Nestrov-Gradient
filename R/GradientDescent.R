@@ -42,10 +42,8 @@ GradientDescent <- function(beta, X, y,
       return(output)
     }
     beta <- beta - learningRate * grad
-    if(i %% 10 == 0){
-      iList <- append(iList, i)
-      costList <- append(costList, cost)
-    }
+    iList <- append(iList, i)
+    costList <- append(costList, cost)
   }
   return(beta)
 }

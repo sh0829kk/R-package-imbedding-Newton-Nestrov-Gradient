@@ -1,1 +1,2 @@
-exportPattern("^[[:alpha:]]+")
+export(ConfusionMatrix, costFunction, GradientDescent, NestrovGradientDescent, Newton,
+       plotAUC)

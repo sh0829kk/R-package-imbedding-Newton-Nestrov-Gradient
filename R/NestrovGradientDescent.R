@@ -1,6 +1,6 @@
 #' This is some description of this function
-#' @title NestrovGradient
-#' @description It is used to perform the NestrovGradient model.
+#' @title NestrovGradientDescent
+#' @description It is used to perform the NestrovGradientDescent model.
 #' @details You can choose whether to add regularization to the model, by setting default regulation 0 to 2,
 #'          which means you adopt, NestrovGradient model with L2 norm regulation term.
 #'
@@ -42,10 +42,8 @@ NestrovGradientDescent <- function(beta, X, y,
     }
     betaList <- append(betaList, as.matrix(list(beta)))
     beta <- as.matrix(betaList[[i+1]] + (i-2)/(i+1) * (betaList[[i+1]] - betaList[[i]])) - learningRate * grad
-    if(i %% 10 == 0){
-      iList <- append(iList,i)
-      costList <- append(costList, cost)
-    }
+    iList <- append(iList,i)
+    costList <- append(costList, cost)
   }
   return(beta)
 }

@@ -49,7 +49,7 @@ Newton <- function(beta, X, y,
       return(output)
     }
     #print(pinv(hess))
-    print(paste("cost after iteration",i,":" ,cost))
+    #print(paste("cost after iteration",i,":" ,cost))
     beta <- beta - (pinv(hess) %*% grad)
     iList <- append(iList, i)
     costList <- append(costList, cost)

@@ -3,7 +3,7 @@
 \docType{data}
 \name{breast-cancer-wisconsin}
 \alias{breast-cancer-wisconsin}
-\title{breast-cancer-wisconsin dataset:}
+\title{breast-cancer-wisconsin}
 \description{
 This breast cancer databases was obtained from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg.
 Attribute Information: (class attribute has been moved to last column)
