@@ -23,4 +23,4 @@
    * Nestrov Gradient Descent
    
 4. Output params and pics
-![Compare Plots](/Users/linkeke/Desktop/000013.png)
+![Compare Plots](/000013.png)
