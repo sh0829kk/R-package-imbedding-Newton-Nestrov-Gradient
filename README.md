@@ -16,7 +16,7 @@
    
    * regulation
    
-3. Slect Learning models
+3. Select Learning models
 
    * Newton
    * Gradient Descent
