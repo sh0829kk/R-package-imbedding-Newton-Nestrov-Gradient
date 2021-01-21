@@ -1,10 +1,10 @@
 ***Logistic Regression***
 
-:sparkles:
+:sparkles:  Author: Keke Lin
 
 *Performs discrete, real, and gentle logistic regression model under both initial model and model with L2 norm regularization*
 
-:tada:
+:octocat:
 
 1. Import Dataset
 
