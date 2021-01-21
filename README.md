@@ -1,7 +1,16 @@
 ***Logistic Regression***
+:sparkles:
+*Performs discrete, real, and gentle logistic regression model under both initial model and model with L2 norm regularization*
 
-##Performs discrete, real, and gentle logistic regression model under both initial model and model with L2 norm regularization.
-
-###The package provides solving algorithm includes three types of algorithms, namely gradient descent method, accelerated gradient descent method and Newton method. 
-
-###Provide with functions can simply output confusion matrix, evaluation indicators and visualize descent process.
+:tada:
+*Import Dataset*
+*Adjust Parameter*
+  *Learning rate*
+  *sigma*
+  *regulation*
+*Slect Learning models*
+  *Newton*
+  *Gradient Descent*
+  *Nestrov Gradient Descent*
+*Output params and pics*
+![Compare Plots](/Users/linkeke/Desktop/000013.png)
