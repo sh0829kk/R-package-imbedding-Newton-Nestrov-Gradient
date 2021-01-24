@@ -16,22 +16,23 @@ This repository contains:
 
 
 ## Table of Contents
+- [Import Dataset](#import-dataset)
+- [Parameter Initialization](#parameter-initialization)
+- [Select Learning models](#select-learning-models)
+  * [Newton](#newton)
+  * [Gradient Descent](#gradient-descent)
+  * [Nestrov Gradient Descent](#nestrov-gradient-descent)
+- [Output params and pics](#output-params-and-pics)
 
-- [Import Dataset](#Import Dataset)
-- [Install](#install)
-- [Usage](#usage)
-	- [Generator](#generator)
-- [Badge](#badge)
-- [Example Readmes](#example-readmes)
-- [Related Efforts](#related-efforts)
-- [Maintainers](#maintainers)
-- [Contributing](#contributing)
-- [License](#license)
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+  
+
 
  ## Import Dataset
 
-   * The data about breast cancer was obtained from University of Winsconsin Hospitals, Madison from Dr. William H. Wolberg.
-   * Attributes and class are displayed in following table,
+ - The data about breast cancer was obtained from University of Winsconsin Hospitals, Madison from Dr. William H. Wolberg.
+ -  Attributes and class are displayed in following table,
    
    |Sample Code Number | id number|
    |:-----------------:|:---------|
