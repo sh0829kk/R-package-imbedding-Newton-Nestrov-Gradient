@@ -27,7 +27,7 @@
 
 - I have modified abnormal data by KNN imputation method and transfered all data into **numeric** type.     
       
-- Regard 2nd-10th columns as independent variables $X$ while 11th column as the dependent variable $y$. To simplify the notation of the dependent varibale, I denoted original dependent value $2$ as $1$ and $4$ as $2$, hence $y\in \{0,1\}$.)     
+- Regard 2nd-10th columns as independent variables $X$ while 11th column as the dependent variable $y$. To simplify the notation of the dependent varibale, I denoted original dependent value $2$ as $1$ and $4$ as $2$, hence $y\in \{0,1\}$.    
 
 - I added offset column $O_{n\times 1}$ on the independent matrix $X$.        
 
