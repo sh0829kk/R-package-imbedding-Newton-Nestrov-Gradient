@@ -20,7 +20,7 @@
 #' @example NestrocGradientDescent(beta, X, y)
 #'
 NestrovGradientDescent <- function(beta, X, y,
-                                   maxLength = 4000, learningRate = 0.001, sigma = 0.001,
+                                   maxLength = 10000, learningRate = 0.001, sigma = 0.001,
                                    regulation = 0, lamda = 0.5){
   betaList <- list()
   iList <- list()
