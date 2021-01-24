@@ -1,14 +1,34 @@
-***Logistic Regression***
+# Logistic Regression
 
 :sparkles:  Author: Keke Lin
 
-**TestLogistic.Rmd and TestLogistic.r are demo code sample of the package.**   
 
 *Performs discrete, real, and gentle logistic regression model under both initial model and model with L2 norm regularization*.
 
 :octocat:
 
- **1. Import Dataset**
+This repository contains:
+
+1. The demo code sample 1 [TestLogistic.Rmd](TestLogistic.Rmd) and the demo code sample 2 [TestLogistic.r](TestLogistic.r) to show how the package can be used.
+2. A data file [data](data) to restore the built-in data set.
+3. A R function file [R](R) to perform the different functions of the package.
+4. A compressed package [LogisticRegression_0.1.1.tar.gz](LogisticRegression_0.1.1.tar.gz) to download the source package.
+
+
+## Table of Contents
+
+- [Import Dataset](#Import Dataset)
+- [Install](#install)
+- [Usage](#usage)
+	- [Generator](#generator)
+- [Badge](#badge)
+- [Example Readmes](#example-readmes)
+- [Related Efforts](#related-efforts)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
+
+ ## Import Dataset
 
    * The data about breast cancer was obtained from University of Winsconsin Hospitals, Madison from Dr. William H. Wolberg.
    * Attributes and class are displayed in following table,
@@ -33,7 +53,7 @@
 
 - To import data, please use command **data("breast-cancer-wisconsin")**.    
 
-**2. Parameter Initialization**
+## Parameter Initialization
 
    * maxLength = 10000, modification allowed.     
         *Maximum iteration length.*
@@ -52,13 +72,13 @@
 
    * lambda = 0.5, as the coefficient of norm regularization.
 
-**3. Select Learning models**
+## Select Learning models
 
-   * Newton
-   * Gradient Descent
-   * Nestrov Gradient Descent
+### Newton
+### Gradient Descent
+### Nestrov Gradient Descent
    
-**4. Output params and pics**
+## Output params and pics
    
    Output is a list comprising elements $\{beta, iList, costList\}$, where $iList$ is iteration.No, $costList$ is the cost function.      
 
