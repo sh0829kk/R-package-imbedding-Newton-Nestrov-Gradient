@@ -55,7 +55,7 @@ This repository contains:
 
 - To import data, please use following command in R console:
 ```r
-data("breast-cancer-wisconsin").    
+data("breast-cancer-wisconsin")
 ```
 ## Parameter Initialization
 
