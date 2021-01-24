@@ -24,7 +24,6 @@ This repository contains:
   * [Nestrov Gradient Descent](#nestrov-gradient-descent)
 - [Output params and pics](#output-params-and-pics)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
   
 
@@ -56,33 +55,39 @@ This repository contains:
 
 ## Parameter Initialization
 
-   * maxLength = 10000, modification allowed.     
-        *Maximum iteration length.*
+   * **maxLength** = 10000  
+ >Maximum iteration length. Modification allowed.
 
 
-   * Learning rate = 0.001, modification allowed.
+   * **Learning rate** = 0.001 
+  >Model learning rate. Modification allowed.
    
    
-   * sigma = 0.001,  modification allowed.            
-  
-        *threshold: Stop calculation if sigma number of iterations is reached.*
+   * **sigma** = 0.001  
+   >Threshold: stop calculaion if sigma number of iteration is reached. Modification allowed.        
+
+   * **regulation** 
+   >= 0 for initial model, = 2 for L2 norm regularization model.
 
 
-   * regulation = 0 for initial model, regulation = 2 for L2 norm regularization model.
-
-
-   * lambda = 0.5, as the coefficient of norm regularization.
+   * **lambda** = 0.5 
+   >Coefficient of norm regularization. Modification allowed.
 
 ## Select Learning models
 
 ### Newton
+  
+  The basic idea of Newton's method is to use the first derivative (gradient) and second derivative (Hesssen matrix) at the iteration point to approximate the objective function with the quadratic function, and then use the minimum point of the quadratic model as the new iteration point.
+  
 ### Gradient Descent
+   To use the gradient descent method to find the local minimum of a function, it is necessary to iteratively search for the specified step distance point in the opposite direction of the gradient (or approximate gradient) corresponding to the current point on the function.
 ### Nestrov Gradient Descent
+   Nesterov Accelerated Gradient algorithm is improved over Momentum in that it is updated with the gradient seen "looking forward" instead of the current position gradient. In the equivalent form after transformation, the NAG algorithm has one more change from the current gradient to the last gradient relative to Momentum. This change is essentially an approximation of the second derivative of the objective function. Due to the use of the second-order derivative information, the NAG algorithm has a faster convergence rate than Momentum.
    
 ## Output params and pics
    
-   Output is a list comprising elements $\{beta, iList, costList\}$, where $iList$ is iteration.No, $costList$ is the cost function.      
+   * Output is a list comprising elements $\{beta, iList, costList\}$, where $iList$ is iteration.No, $costList$ is the cost function.      
 
-   Embedded function *plotAUC* and *Confusion Matrix* could return the result of K-fold cross-validation based on the validation set.
+   * Embedded function *plotAUC* and *Confusion Matrix* could return the result of K-fold cross-validation based on the validation set.
 
 ![Compare Plots](/000013.png)
