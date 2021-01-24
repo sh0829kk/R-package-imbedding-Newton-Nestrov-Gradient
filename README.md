@@ -45,14 +45,18 @@ This repository contains:
    |Normal Nucleoli| 1-10|
    |Class:|(2 for benign, 4 for maligant)
 
-- I have modified abnormal data by KNN imputation method and transfered all data into **numeric** type.     
+- All abnormal datas are modified by KNN imputation method and transfered  into **numeric** type.     
       
-- Regard 2nd-10th columns as independent variables $X$ while 11th column as the dependent variable $y$. To simplify the notation of the dependent varibale, I denoted original dependent value $2$ as $1$ and $4$ as $2$, hence $y\in \{0,1\}$.    
+- Regard 2nd-10th columns as independent variables $X$ while 11th column as the dependent variable $y$. 
 
-- I added offset column $O_{n\times 1}$ on the independent matrix $X$.        
+- To simplify the notation of the dependent varibale $y$, original  value $2$ is taken as $1$ and $4$ as $2$, hence $y\in \{0,1\}$.    
 
-- To import data, please use command **data("breast-cancer-wisconsin")**.    
+- Added offset column $O_{n\times 1}$ on the independent matrix $X$.        
 
+- To import data, please use command in R console:
+```r
+data("breast-cancer-wisconsin")**.    
+```
 ## Parameter Initialization
 
    * **maxLength** = 10000  
