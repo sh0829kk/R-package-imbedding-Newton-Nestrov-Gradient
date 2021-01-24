@@ -53,9 +53,9 @@ This repository contains:
 
 - Added offset column $O_{n\times 1}$ on the independent matrix $X$.        
 
-- To import data, please use command in R console:
+- To import data, please use following command in R console:
 ```r
-data("breast-cancer-wisconsin")**.    
+data("breast-cancer-wisconsin").    
 ```
 ## Parameter Initialization
 
