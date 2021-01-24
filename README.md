@@ -38,15 +38,19 @@
    * maxLength = 10000, modification allowed.     
         *Maximum iteration length.*
 
+
    * Learning rate = 0.001, modification allowed.
+   
    
    * sigma = 0.001,  modification allowed.            
   
         *threshold: Stop calculation if sigma number of iterations is reached.*
 
+
    * regulation = 0 for initial model, regulation = 2 for L2 norm regularization model.
 
-* lambda = 0.5, as the coefficient of norm regularization.
+
+   * lambda = 0.5, as the coefficient of norm regularization.
 
 **3. Select Learning models**
 
@@ -58,6 +62,6 @@
    
    Output is a list comprising elements $\{beta, iList, costList\}$, where $iList$ is iteration.No, $costList$ is the cost function.      
 
-   Embedded function *plotAUC* and *Confusion Matrix* return the result of K-fold cross-validation based on the validation set.
+   Embedded function *plotAUC* and *Confusion Matrix* could return the result of K-fold cross-validation based on the validation set.
 
 ![Compare Plots](/000013.png)
