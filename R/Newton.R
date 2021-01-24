@@ -21,15 +21,16 @@
 #'
 #'
 #'
-require(pracma)
-if(!require(pracma)) install.packages("pracma")
-library(pracma)
-require(MASS)
-if(!require(MASS)) install.packages("MASS")
-library(MASS)
+
 Newton <- function(beta, X, y,
                    maxLength = 10, sigma = 0.001,
                    regulation = 0, lamda = 0.5){
+  require(pracma)
+  if(!require(pracma)) install.packages("pracma")
+  library(pracma)
+  require(MASS)
+  if(!require(MASS)) install.packages("MASS")
+  library(MASS)
   iList <- list()
   costList <- list()
   for (i in 1:maxLength){
