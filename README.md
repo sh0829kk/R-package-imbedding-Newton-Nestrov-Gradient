@@ -9,7 +9,7 @@
 
 This repository contains:
 
-1. The demo code sample 1 [TestLogistic.Rmd](TestLogistic.Rmd) and the demo code sample 2 [TestLogistic.r](TestLogistic.r) to show how the package can be used.
+1. The demo code sample 1 [TestLogistic.Rmd](TestLogistic.Rmd) and the demo code sample 2 [TestLogistic.R](TestLogistic.R) to show how the package can be used.
 2. A data file [data](data) to restore the built-in data set.
 3. A R function file [R](R) to perform the different functions of the package.
 4. A compressed package [LogisticRegression_0.1.0.tar.gz](LogisticRegression_0.1.0.tar.gz) to download the source package.
