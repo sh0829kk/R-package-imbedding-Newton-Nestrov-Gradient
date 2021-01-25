@@ -47,11 +47,11 @@ This repository contains:
 
 - All abnormal datas are modified by KNN imputation method and transfered  into **numeric** type.     
       
-- Regard 2nd-10th columns as independent variables $X$ while 11th column as the dependent variable $y$. 
+- Regard 2nd-10th columns as independent variables <img src="https://render.githubusercontent.com/render/math?math=%24X%24"> while 11th column as the dependent variable <img src="https://render.githubusercontent.com/render/math?math=%24y%24">. 
 
-- To simplify the notation of the dependent varibale $y$, original  value $2$ is taken as $1$ and $4$ as $2$, hence $y\in \{0,1\}$.    
+- To simplify the notation of the dependent varibale <img src="https://render.githubusercontent.com/render/math?math=%24y%24">, original  value <img src="https://render.githubusercontent.com/render/math?math=%242%24"> is taken as <img src="https://render.githubusercontent.com/render/math?math=%240%24"> and <img src="https://render.githubusercontent.com/render/math?math=%24%24"> as <img src="https://render.githubusercontent.com/render/math?math=%241%24">, hence <img src="https://render.githubusercontent.com/render/math?math=%24y%5Cin%20%5C%7B0%2C1%5C%7D%24">.    
 
-- Added offset column $O_{n\times 1}$ on the independent matrix $X$.        
+- Added offset column <img src="https://render.githubusercontent.com/render/math?math=%24O_%7Bn%5Ctimes%201%7D%24"> on the independent matrix <img src="https://render.githubusercontent.com/render/math?math=%24X%24">.        
 
 - To import data, please use following command in R console:
 ```r
@@ -90,7 +90,7 @@ data("breast-cancer-wisconsin")
    
 ## Output params and pics
    
-   * Output is a list comprising elements $\{beta, iList, costList\}$, where $iList$ is iteration.No, $costList$ is the cost function.      
+   * Output is a list comprising elements <img src="https://render.githubusercontent.com/render/math?math=%24%5C%7Bbeta%2C%20iList%2C%20costList%5C%7D%24">, where <img src="https://render.githubusercontent.com/render/math?math=%24iList%24"> is iteration.No, <img src="https://render.githubusercontent.com/render/math?math=%24costList%24"> is the cost function.      
 
    * Embedded function *plotAUC* and *Confusion Matrix* could return the result of K-fold cross-validation based on the validation set.
 
