@@ -49,7 +49,7 @@ This repository contains:
       
 - Regard 2nd-10th columns as independent variables <img src="https://render.githubusercontent.com/render/math?math=%24X%24"> while 11th column as the dependent variable <img src="https://render.githubusercontent.com/render/math?math=%24y%24">. 
 
-- To simplify the notation of the dependent varibale <img src="https://render.githubusercontent.com/render/math?math=%24y%24">, original  value <img src="https://render.githubusercontent.com/render/math?math=%242%24"> is taken as <img src="https://render.githubusercontent.com/render/math?math=%240%24"> and <img src="https://render.githubusercontent.com/render/math?math=%24%24"> as <img src="https://render.githubusercontent.com/render/math?math=%241%24">, hence <img src="https://render.githubusercontent.com/render/math?math=%24y%5Cin%20%5C%7B0%2C1%5C%7D%24">.    
+- To simplify the notation of the dependent varibale <img src="https://render.githubusercontent.com/render/math?math=%24y%24">, original  value <img src="https://render.githubusercontent.com/render/math?math=%242%24"> is taken as <img src="https://render.githubusercontent.com/render/math?math=%240%24"> and <img src="https://render.githubusercontent.com/render/math?math=%244%24"> as <img src="https://render.githubusercontent.com/render/math?math=%241%24">, hence <img src="https://render.githubusercontent.com/render/math?math=%24y%5Cin%20%5C%7B0%2C1%5C%7D%24">.    
 
 - Added offset column <img src="https://render.githubusercontent.com/render/math?math=%24O_%7Bn%5Ctimes%201%7D%24"> on the independent matrix <img src="https://render.githubusercontent.com/render/math?math=%24X%24">.        
 
