@@ -70,7 +70,7 @@ data("breast-cancer-wisconsin")
    * **sigma** = 0.001  
    >Threshold: stop calculaion if sigma number of iteration is reached. Modification allowed.        
 
-   * **regulation** 
+   * **regularization** 
    >= 0 for initial model, = 2 for L2 norm regularization model.
 
 
